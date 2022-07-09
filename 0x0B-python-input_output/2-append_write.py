@@ -6,11 +6,9 @@ Appends a string at the end of a text file.
 
 def append_write(filename="", text=""):
     """Appends text to filename.
-
     Args:
         - filename: name of the file
         - text: text to append
-
     Returns: the number of characters added
     """
 

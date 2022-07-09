@@ -11,7 +11,6 @@ import json
 def save_to_json_file(my_obj, filename):
     """Writes the representation of my_obj
     to filename.
-
     Args:
         - my_obj: object to write
         - filename: file to write into

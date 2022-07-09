@@ -6,7 +6,7 @@ Creates a Student class.
 
 class Student:
     """Class that defines a student.
-    Public attributes:
+        Public attributes:
         - first_name
         - last_name
         - age
@@ -23,7 +23,6 @@ class Student:
     def to_json(self, attrs=None):
         """Retrieves a dictionary representation
         of a Student instance.
-
         Args:
             - attrs: list of attributes
 
